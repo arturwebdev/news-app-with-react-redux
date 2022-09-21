@@ -1,0 +1,120 @@
+.commentlist li .avatar {
+	position: absolute;
+	left: 0;
+	display: block;
+	height: 6rem;
+	width: 6rem;
+}
+
+.commentlist li .avatar img {
+	margin-top: 0.6rem;
+	height: 6rem;
+	width: 6rem;
+	border-radius: 100%;
+}
+
+.commentlist li .comment-text {
+	clear: both;
+	margin: 1.8rem 0 0 0;
+	padding: 0;
+   
+}
+
+.commentlist {
+	margin: 3rem 0 5.4rem;
+	padding: 0;
+}
+
+.commentlist > li {
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 1.8rem 0;
+	padding-left: 14%;
+}
+
+
+
+.commentlist li .comment-info cite {
+	font-family: "montserrat-bold", sans-serif;
+	font-size: 1.8rem;
+	font-style: normal;
+	color: #151515;
+    text-transform: capitalize;
+}
+
+.commentlist li .comment-info .comment-meta {
+	font-family: "muli-regular", sans-serif;
+	font-size: 1.4rem;
+	line-height: 3rem;
+	display: block;
+	color: #888888;
+}
+
+.commentlist li .comment-info .comment-meta .reply {
+	font-family: "montserrat-bold", sans-serif;
+	color: #151515;
+}
+
+.commentlist li .comment-info .comment-meta .sep {
+	margin: 0 5px;
+}
+
+
+
+.commentlist li ul.children {
+	margin: 0;
+	padding: 1.8rem 0 0 0;
+}
+
+.commentlist li ul.children li {
+	padding-left: 5%;
+	padding-top: 1.8rem;
+}
+
+.comment-delete, .comment-edit {
+	border: 0px solid #2c2c2c;
+	background-color: white;
+	padding: 5px 10px;    
+	border-radius: 10px;
+	margin-right: 5px;
+	transition: all .3s;
+	cursor: pointer;
+}
+
+.comment-delete:hover, .comment-edit:hover{
+	background-color: rgb(117, 117, 117);
+	color: white;
+}
+
+
+
+@media only screen and (max-width:768px) {
+	#comments form button {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width:600px) {
+	#comments h3 {
+		text-align: center;
+	}
+
+	.commentlist > li {
+		padding-left: 0;
+	}
+
+	.commentlist li .avatar {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width:600px) {
+
+	.commentlist li .avatar {
+		display: none;
+	}
+
+}

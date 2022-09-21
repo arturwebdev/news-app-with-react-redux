@@ -1,0 +1,21 @@
+
+.search label{
+  cursor: pointer;
+}
+.search_field{
+    border: 2px solid white;
+    outline: 0;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: #8E8E8E;
+    margin: 20px 10px 20px 10px;
+    height: 30px;
+    list-style: 30px;  
+  }
+  
+  .search_field:focus{
+    border: 2px solid rgb(194, 190, 190);
+  }
+
+
+  

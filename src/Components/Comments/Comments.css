@@ -1,0 +1,19 @@
+/* #comments {
+	padding: 20px;
+} */
+
+.comments-wrap {
+	background-color: rgba(0, 0, 0, 0.08);
+	padding: 40px ;
+}
+
+#comments h3 {
+	margin-bottom: 1.5rem;
+}
+
+#comments ol,
+#comments ul {
+	list-style: none;
+}
+
+

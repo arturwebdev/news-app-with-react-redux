@@ -1,0 +1,37 @@
+#page-header {
+	padding: 4.2rem 0 0 0;
+	text-align: center;
+}
+
+#page-header .row {
+	max-width: 870px;
+}
+
+#page-header h1 {
+	margin-bottom: 3rem;
+}
+
+#page-header p {
+	color: #999999;
+}
+
+#content-wrap .content-media {
+	position: relative;
+	margin-bottom: 4.8rem;
+}
+
+#content-wrap .content-media img {
+	vertical-align: bottom;
+}
+
+#content-wrap .row {
+	max-width: 950px;
+}
+
+#content-wrap .row.wide {
+	max-width: 1300px;
+}
+
+#content-wrap .row.narrow {
+	max-width: 800px;
+}

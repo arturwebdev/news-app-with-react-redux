@@ -1,0 +1,46 @@
+#comments form {
+	padding-top: 3rem;
+}
+
+#comments form .form-field {
+	margin-bottom: 3.9rem;
+}
+
+.button.button-primary,
+a.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  background: #2c2c2c;
+  color: #ffffff;
+}
+
+.button.button-primary:hover,
+a.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  background: #000000;
+}
+
+fieldset {
+	border: none;
+	margin-bottom: 20px;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.respond h3{
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	padding-top: 50px;
+	margin-top: 20px;
+}
